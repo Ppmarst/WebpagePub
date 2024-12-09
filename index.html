@@ -4,177 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Natthanai Tongta</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Mali:wght@400;500;600&display=swap');
 
-        body {
-            font-family: "Kanit", sans-serif;
-            margin: 0;
-            padding: 0;
-            background: url('878.jpg') no-repeat center center/cover;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            flex-direction: column;
-            min-height: 100vh;
-            color: #333;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 900px;
-            padding: 30px;
-            background: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(10px);
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-            text-align: left;
-        }
-
-        h1 {
-            font-size: 40px;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 15px;
-        }
-
-        h2 {
-            font-size: 30px;
-            font-weight: 500;
-            margin-top: 20px;
-        }
-
-        h3 {
-            font-size: 24px;
-            font-weight: 500;
-            margin-top: 20px;
-            color: #444;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            color: #555;
-            margin-bottom: 10px;
-        }
-
-        button {
-            font-family: "Merriweather", sans-serif;
-            font-weight: 500;
-            background-color: #4CAF50;
-            color: #fff;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        button:hover {
-            background-color: #45a049;
-        }
-
-        img {
-            width: 250px;
-            height: auto;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        th, td {
-            padding: 15px;
-            text-align: center;
-            border: 2px solid #ddd;
-        }
-
-        th {
-            background-color: #f4f4f4;
-            font-weight: 600;
-        }
-
-        td {
-            background-color: #fafafa;
-        }
-
-        tr:nth-child(even) td {
-            background-color: #f9f9f9;
-        }
-
-        tr:hover td {
-            background-color: #f1f1f1;
-        }
-
-        /* ScrollableContent */
-        .content {
-            max-height: 80vh;
-            overflow-y: auto;
-            padding-right: 10px;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="container">
+    <main class="container">
+    <header>
         <h1>Hello, World!</h1>
-        <p>This is my very first HTML page :D</p>
-        <p>My name is Natthanai Tongta</p>
-        <p>MMT46641N 466420241012</p>
-        <p>Science and Technology</p>
-        <p>Digital Multimedia 2nd Year</p>
-        <p>Nice to meet you</p>
+        <p>Welcome to my personal webpage! My name is Natthanai Tongta.</p>
+        <p>Student ID: MMT46641N 466420241012</p>
+        <p>Field of Study: Science and Technology</p>
+        <p>Program: Digital Multimedia, 2nd Year</p>
+        <p>Nice to meet you!</p>
+    </header>
+</main>
 
-        <p>
-            <a href="https://www.facebook.com/Basepl4te" target="_blank">
-                <button>Click here to visit Facebook</button>
-            </a>
-        </p>
+    <main class="container">
+        <section>
+            <h2>Profile Image</h2>
+            <img src="Ngta.jpg" alt="A portrait of Natthanai Tongta" loading="lazy" class="profile-image">
+        </section>
 
-        <h2>Profile Image</h2>
-        <img src="Ngta.jpg" alt="My picture">
-    </div>
+        <section>
+            <h3>Education Background</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>School</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2011</td>
+                        <td>Sangthaweepwittaya School</td>
+                        <td>Grade 1 - 6</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>Ayutthaya Wittayalai School</td>
+                        <td>Grade 6 - 12</td>
+                    </tr>
+                    <tr>
+                        <td>2023 - Present</td>
+                        <td>Rajamangala University of Technology Suvarnabhumi Ayutthaya</td>
+                        <td>Year 1 - Now</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-    <div class="container content">
-        <h3>Education Background</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Year</th>
-                    <th>School</th>
-                    <th>Grade</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2011</td>
-                    <td>Sangthaweepwittaya School</td>
-                    <td>Grade 1 - 6</td>
-                </tr>
-                <tr>
-                    <td>2019</td>
-                    <td>Ayutthaya wittayalai school</td>
-                    <td>Grade 6 - 12 </td>
-                </tr>
-                <tr>
-                    <td>2023-Now</td>
-                    <td>Rajamangala University of Technology Suvarnabhumi Ayutthaya</td>
-                    <td>year 1 - now </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+        <section>
+            <h3>Connect with Me</h3>
+            <p>
+                <a href="https://www.facebook.com/Basepl4te" target="_blank" rel="noopener noreferrer">
+                    <button class="connect-button">Visit My Facebook</button>
+                </a>
+            </p>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
